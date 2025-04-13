@@ -1,22 +1,16 @@
 {
-  "name": "project-1",
+  "name": "twitter",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "main": "backend/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anmoldust/Project-1.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/server.js",
+    "start": "node backend/server.js"
   },
   "keywords": [],
   "author": "",
+  "type": "module",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anmoldust/Project-1/issues"
-  },
-  "homepage": "https://github.com/anmoldust/Project-1#readme",
   "description": "",
   "dependencies": {
     "bcryptjs": "^3.0.2",
@@ -26,6 +20,7 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.13.2"
+    "mongoose": "^8.13.2",
+    "twitter": "file:"
   }
 }
